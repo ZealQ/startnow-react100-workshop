@@ -17,7 +17,7 @@ const url = 'http://localhost:8888';
 
 
 describe('Workshop game', function () {
-  this.timeout(6500);
+  this.timeout(65000);
   beforeEach(() => {
     nightmare = new Nightmare();
   });
